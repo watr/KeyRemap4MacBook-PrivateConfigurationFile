@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Private</name>
+		<item>
+			<name>左右のコマンドキー（⌘）を「英数／かな」としても使う</name>
+			<appendix>（Virtual Machine上では無効）</appendix>
+			<identifier>remap.jis_command2eisuukana_prefer_command_without_vm</identifier>
+			<not>VIRTUALMACHINE</not>
+			<autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_L, KeyCode::COMMAND_L, KeyCode::JIS_EISUU</autogen>
+			<autogen>__KeyOverlaidModifier__ KeyCode::COMMAND_R, KeyCode::COMMAND_R, KeyCode::JIS_KANA</autogen>
+		</item>
+	</item>
+</root>
